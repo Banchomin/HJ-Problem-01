@@ -9,22 +9,63 @@
     <link rel="shortcut icon" href="/asset/favicon.ico" type="image/x-icon" />
   </head>
   <body>
+    <!--* header -->
     <header>
-      <a href="#">Gmail</a>
-      <a href="#">이미지</a>
-      <button>*설정</button>
-      <button>profile</button>
+      <a href="#" class="header-contents header-a">Gmail</a>
+      <a href="#" class="header-contents header-a">이미지</a>
+      <div class="header-contents header-icon" id="list-icon"><img src="/asset/List.png" alt="" /></div>
+      <div class="header-contents header-icon" id="profile-icon"><img src="/asset/siku.png" alt="" /></div>
     </header>
+
+    <!--* main -->
     <div class="container">
+      <!-- Google 로고 -->
       <img src="/asset/logo.png" alt="google-logo" />
       <br />
-      <input type="text" />
+
+      <!-- 검색창 -->
+      <div id="search">
+        <img src="/asset/search.png" alt="" />
+        <input type="text" placeholder="Google 검색 또는 URL 입력" />
+        <div class="mic-div"><img src="/asset/mic.png" alt="" /></div>
+      </div>
       <br />
-      <button>Stackoverflow</button><button>Youtube</button><button>Github</button>
+
+      <!-- 방문기록 -->
+      <span id="shortcut">
+        <!-- TODO YOUTUBE -->
+        <span>
+          <div class="shortcut-icon">
+            <a href="https://www.youtube.com/"><img src="/asset/youtube.png" alt="youtube" /></a>
+          </div>
+          <p>Youtube</p>
+        </span>
+        <!-- TODO GITHUB -->
+        <span>
+          <div class="shortcut-icon">
+            <a href="https://github.com/"><img src="/asset/github.png" alt="youtube" /></a>
+          </div>
+          <p>Github</p>
+        </span>
+        <!-- TODO STACK OVERFLOW -->
+        <span>
+          <div class="shortcut-icon">
+            <a href="https://stackoverflow.com/"><img src="/asset/stackoverflow.png" alt="youtube" /></a>
+          </div>
+          <p>Stack Overflow</p>
+        </span>
+      </span>
     </div>
+
+    <!-- *footer -->
     <footer>
-      <button>Chrome 맞춤설정</button>
+      <div>
+        <img src="/asset/pencil.png" alt="" />
+        <p>Chrome 맞춤설정</p>
+      </div>
     </footer>
+
+    <!-- JS Connect -->
     <script src="/js/app.js"></script>
   </body>
 </html>
