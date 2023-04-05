@@ -1,0 +1,40 @@
+/* 전체 여백 없애기 */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.header_link:hover {
+  text-decoration: underline;
+}
+.header_menu {
+  margin: 10px;
+}
+.header_list {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#list img {
+  width: 30px;
+  height: 30px;
+}
+#profile img {
+  width: 40px;
+  height: 44px;
+}
+/* header */
