@@ -55,7 +55,7 @@ header {
 
 /*? header */
 
-/* ? modal */
+/* ? modal 1*/
 #modal_1 {
   margin-right: 5px;
   position: absolute;
@@ -89,7 +89,41 @@ header {
 .modal_list_1 p {
   color: white;
 }
-/* ? modal */
+/* ? modal 1*/
+
+/* ? modal 2*/
+#modal_area_2 {
+  width: 380px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#inner_div {
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#profile_info {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 0 10px;
+}
+#profile_info img {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+#profile_setting {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#profile_setting button {
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+}
+/* ? modal 2*/
 
 /*? main */
 /* logo */
